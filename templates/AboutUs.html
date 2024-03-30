@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Movie Review Sentiment Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://images.unsplash.com/photo-1515871204537-49a5fe66a31f?q=80&w=1982&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9fafb;
+        }
+
+        nav {
+            background-color: #1a202c;
+        }
+
+        nav a {
+            color: #e2e8f0;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #cbd5e0;
+        }
+
+        main {
+            padding: 4rem 1rem;
+        }
+
+        h1 {
+            color: #2d3748;
+        }
+
+        p {
+            color: #4a5568;
+        }
+
+        footer {
+            background-color: #2d3748;
+            color: #cbd5e0;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .image-container {
+            position: relative;
+            height: 300px;
+            overflow: hidden;
+        }
+
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 2rem;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .image-container:hover .image-overlay {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+  
+
+    <main>
+        <div class="container mx-auto px-4 py-12">
+            <h1 class="text-4xl font-semibold mb-6 text-center">About Us</h1>
+            <p class="text-lg text-gray-700 mb-8 text-center">Welcome to our Movie Review Sentiment Analysis Tool! At
+                <strong>EmoSense Analytics</strong> , we are passionate about movies and technology. Our goal is to provide you with a
+                powerful tool to analyze the sentiments expressed in movie reviews. Whether you're a movie enthusiast, a
+                filmmaker, or a researcher, our tool can help you gain valuable insights into audience reactions and
+                trends.</p>
+            <div class="image-container mx-auto mb-8" data-aos="fade-up">
+                <img src="https://source.unsplash.com/random/800x400" alt="About Us Image" class="w-full h-auto">
+                <div class="image-overlay">Discover More</div>
+            </div>
+            <p class="text-lg text-gray-700 mb-8 text-center">Our tool uses advanced natural language processing (NLP)
+                techniques to analyze the text of movie reviews. It can identify the overall sentiment of a review
+                (positive or negative) and provide you with detailed insights into the emotions and opinions
+                expressed by the reviewers.</p>
+            <h2 class="text-2xl font-semibold mb-4 text-center">Why Use Our Tool</h2>
+            <ul class="list-disc text-lg text-gray-700 mb-8 text-center">
+                <strong>Understand Audience Sentiment:</strong> Gain a deeper understanding of how audiences feel
+                    about a movie. <br>
+               <strong>Improve Marketing Strategies:</strong> Refine your marketing
+                    strategies and target your audience more effectively. <br>
+             <strong>Research and Analysis:</strong> Researchers and analysts can use our tool to study trends
+                    in movie reviews and audience preferences.
+            </ul>
+        </div>
+    </main>
+
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
