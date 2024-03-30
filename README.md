@@ -28,7 +28,9 @@ EmoSense Analytics stands at the forefront of sentiment analysis, offering a use
 
 ## Video Explanation
 
-https://github.com/ParvSoni/EmoSense-Analytics/assets/123165567/6b137454-53da-4f9b-9165-fee7856250e4
+https://github.com/ParvSoni/EmoSense-Analytics/assets/123165567/fbce127b-619f-45d5-93ea-8f61f27e6c27
+
+
 
 
 
