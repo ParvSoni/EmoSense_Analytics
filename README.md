@@ -1,6 +1,6 @@
 # EmoSense Analytics
 
-EmoSense Analytics is a pioneering project hosted on GitHub, dedicated to revolutionizing sentiment analysis within the domain of movie reviews. Anchored by a meticulously curated dataset comprising 50,000 movie reviews, the project harnesses the power of advanced sequence modeling techniques including Long Short-Term Memory (LSTM), Gated Recurrent Unit (GRU), Bidirectional LSTM (BiLSTM), and Bidirectional GRU (BiGRU). These cutting-edge models are instrumental in deciphering the nuanced emotional undercurrents embedded within textual data, enabling precise sentiment prediction.
+EmoSense Analytics is a project dedicated to revolutionizing sentiment analysis within the domain of movie reviews. Anchored by a meticulously curated dataset comprising 50,000 movie reviews, the project harnesses the power of advanced sequence modeling techniques including Long Short-Term Memory (LSTM), Gated Recurrent Unit (GRU), Bidirectional LSTM (BiLSTM), and Bidirectional GRU (BiGRU). These cutting-edge models are instrumental in deciphering the nuanced emotional undercurrents embedded within textual data, enabling precise sentiment prediction.
 
 ## Advanced Natural Language Processing (NLP) Techniques
 
