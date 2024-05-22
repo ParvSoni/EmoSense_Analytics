@@ -6,3 +6,4 @@ flask == 2.2.5
 matplotlib == 3.8.0
 nltk == 3.8.1
 keras_preprocessing == 1.1.2
+gunicorn == 22.0.0
