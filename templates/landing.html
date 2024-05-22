@@ -203,7 +203,7 @@
 
     } else if (textInput.value.trim() !== "") {
       // Predict on single sentence
-      fetch("http://localhost:5000/predict", {
+      fetch("https://emosense-analytics.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
