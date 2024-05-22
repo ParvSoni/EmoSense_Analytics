@@ -167,7 +167,7 @@
       var formData = new FormData();
       formData.append("file", csvFileInput.files[0]);
 
-      fetch("http://localhost:5000/predict", {
+      fetch("https://emosense-analytics.onrender.com/predict", {
         method: "POST",
         body: formData
       })
