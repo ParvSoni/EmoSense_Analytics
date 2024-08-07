@@ -4,7 +4,7 @@ import re
 from io import BytesIO
 import nltk
 from nltk.corpus import stopwords
-nltk.download('stopwords')
+# nltk.download('stopwords')
 from keras_preprocessing.text import Tokenizer
 from nltk.stem.porter import PorterStemmer
 from keras_preprocessing.sequence import pad_sequences
@@ -150,3 +150,6 @@ def sentiment_mapping(x):
     else:
         return "Negative"
 
+
+if __name__ == "__main__":
+    app.run(port=5000, debug=True)
