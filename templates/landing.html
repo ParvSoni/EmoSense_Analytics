@@ -167,7 +167,7 @@
       var formData = new FormData();
       formData.append("file", csvFileInput.files[0]);
 
-      fetch("https://emosense-analytics.onrender.com/predict", {
+      fetch("http://localhost:5000/predict", {
         method: "POST",
         body: formData
       })
@@ -203,7 +203,7 @@
 
     } else if (textInput.value.trim() !== "") {
       // Predict on single sentence
-      fetch("https://emosense-analytics.onrender.com/predict", {
+      fetch("http://localhost:5000/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
