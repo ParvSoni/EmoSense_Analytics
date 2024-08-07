@@ -5,4 +5,4 @@ keras==2.12.0
 keras_preprocessing==1.1.2
 pandas==2.1.4
 matplotlib==3.8.0
-gunicorn==20.2.0
+gunicorn==20.1.0
